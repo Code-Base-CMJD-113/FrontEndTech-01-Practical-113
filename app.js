@@ -13,6 +13,15 @@ form.addEventListener("submit",(e)=>{
    const course = dataForm.get("course");
    const email = dataForm.get("email");
 
+   //validation
+   if(!firstName || !lastName || !batch || !regNo || !course || !email ){
+       document.getElementById("alert-pan-failed")
+            .innerHTML = "<p>Save Failed</p>"
+            document.getElementById("alert-pan-success")
+            .innerHTML = ""
+            return;
+   }
+
 })
 
 
