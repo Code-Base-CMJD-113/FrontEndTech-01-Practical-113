@@ -2,7 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 header {
   position: fixed;
   top: 0;
@@ -19,64 +21,67 @@ header {
   flex-direction: row;
   margin-top: 50px;
 }
-#left-pan{
+#left-pan {
   width: 40vw;
-
 }
-#right-pan{
+#right-pan {
   width: 60vw;
-
 }
-aside{
+aside {
   padding-top: 20px;
 }
-#left-pan img{
+#left-pan img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-#form-pan{
+#form-pan {
   position: relative;
   top: 20px;
 }
-#form-pan form{
+#form-pan form {
   display: flex;
   flex-direction: column;
   gap: 4px;
   justify-content: center;
 }
-input, select{
+input,
+select {
   width: 50%;
   height: 30px;
   border-radius: 5px;
 }
-#btn-save, #btn-reset{
+#btn-save,
+#btn-reset {
   width: 150px;
   color: rgb(8, 0, 0);
   border: transparent;
   border-radius: 5px;
+  background-color: transparent;
 }
-#btn-reset:hover{
-   font-weight:bold;
-   background-color: red;
-   color:white;
+#btn-reset:hover {
+  font-weight: bold;
+  background-color: red;
+  color: white;
 }
-#btn-save:hover{
-  font-weight:bold;
+#btn-save:hover {
+  font-weight: bold;
   background-color: green;
-  color:white;
+  color: white;
 }
-#alert-pan-success{
+#alert-pan-success {
   color: green;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
-#alert-pan-failed{
+#alert-pan-failed {
   color: red;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
-/* #btn-save{
-  background-color: green;
+#btn-save{
+ border: 1px solid green;
+ color: green;
 }
 #btn-reset{
-  background-color: red;
-} */
+  border: 1px solid red;
+  color: red;
+}
