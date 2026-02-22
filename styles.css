@@ -50,3 +50,33 @@ input, select{
   height: 30px;
   border-radius: 5px;
 }
+#btn-save, #btn-reset{
+  width: 150px;
+  color: rgb(8, 0, 0);
+  border: transparent;
+  border-radius: 5px;
+}
+#btn-reset:hover{
+   font-weight:bold;
+   background-color: red;
+   color:white;
+}
+#btn-save:hover{
+  font-weight:bold;
+  background-color: green;
+  color:white;
+}
+#alert-pan-success{
+  color: green;
+  font-size: 1.5rem
+}
+#alert-pan-failed{
+  color: red;
+  font-size: 1.5rem
+}
+/* #btn-save{
+  background-color: green;
+}
+#btn-reset{
+  background-color: red;
+} */
