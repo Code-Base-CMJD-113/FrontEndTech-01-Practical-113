@@ -31,6 +31,10 @@ form.addEventListener("submit",(e)=>{
    }
    console.log(courseData)
    console.log(JSON.stringify(courseData))
+   document.getElementById("alert-pan-failed")
+            .innerHTML = ""
+            document.getElementById("alert-pan-success")
+            .innerHTML =  "<p>Save Success</p>"
 })
 
 
