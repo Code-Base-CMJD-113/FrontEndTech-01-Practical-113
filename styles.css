@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+header{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: aqua;
+}
+#detail-pan{
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+
+}
