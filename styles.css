@@ -7,8 +7,9 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 80px;
+  height: 60px;
   background-color: aqua;
+  z-index: 1;
 }
 #detail-pan {
   position: absolute;
@@ -20,9 +21,11 @@ header {
 }
 #left-pan{
   width: 40vw;
+
 }
 #right-pan{
   width: 60vw;
+
 }
 aside{
   padding-top: 20px;
@@ -32,4 +35,18 @@ aside{
   height: 100%;
   object-fit: cover;
 }
-
+#form-pan{
+  position: relative;
+  top: 20px;
+}
+#form-pan form{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+input, select{
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+}
